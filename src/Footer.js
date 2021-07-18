@@ -1,4 +1,4 @@
-import { defaultModifiers } from '@popperjs/core/lib/popper-lite';
+
 import React from 'react';
 
 class Footer extends React.Component {
@@ -9,7 +9,7 @@ class Footer extends React.Component {
           Author: Anvay Bhanap
         </h2>
       </div>
-    )
+    );
   }
 }
 
