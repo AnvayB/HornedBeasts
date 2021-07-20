@@ -34,7 +34,7 @@ class HornedBeasts extends React.Component {
               <h3>{this.props.description}</h3>
               {/* <h4>{this.props.keyword}</h4> */}
               {/* <h4>{this.props.horns}</h4> */}
-              <span>Number of Favorite Clicks: {this.state.favoriteClicks}   </span>
+              <span>Favorite Clicks: {this.state.favoriteClicks}   </span>
               <img src={heart} alt = " "/>
               <hr />
             </Col>
