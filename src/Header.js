@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 class Header extends React.Component {
   render () {
@@ -6,7 +7,7 @@ class Header extends React.Component {
       <div>
         <h1>Horned Beasts</h1>
       </div>
-    )
+    );
   }
 }
 export default Header;
