@@ -1,3 +1,7 @@
+* {
+  text-align: center;
+}
+
 #animals {
   height: 500px;
 
@@ -5,4 +9,5 @@
 
 h1 {
   text-align: center;
+  background-color: rgb(126, 179, 223);
 }

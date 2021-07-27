@@ -1,11 +1,8 @@
 import React from 'react';
-import data from './data.json';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
 import heart from './red-heart-14x15px.png';
 import "./style.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class HornedBeasts extends React.Component {
 
@@ -13,35 +10,33 @@ class HornedBeasts extends React.Component {
     super(props);
     this.state = {
       favoriteClicks: 0,
-      data: data
     };
   }
 
-  fav = () => {
-    this.setState({favoriteClicks: this.state.favoriteClicks + 1});
+  addFavorite = () => {
+    this.setState({ favoriteClicks: this.state.favoriteClicks + 1});
+    this.props.showModal(this.props.title);
   }
 
-
-  render () {
-    console.log(this.state.data);
+  render() {
     return (
-      <div className = "beasts">
-        <Container>
-          <Row>
-            <Col>
-              <img id = "animals" src={this.props.image_url} onClick={this.fav} alt = " " />
-              <h2>{this.props.title}</h2>
-              <h3>{this.props.description}</h3>
-              {/* <h4>{this.props.keyword}</h4> */}
-              {/* <h4>{this.props.horns}</h4> */}
-              <span>Favorite Clicks: {this.state.favoriteClicks}   </span>
-              <img src={heart} alt = " "/>
-              <hr />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    );
-  }
+      <Card
+        style={{width: '18rem' }}
+        onClick={this.addFavorite}>
+
+        <Card.Img variant="top" src={this.props.image} />
+        <Card.Body>
+          <Card.Title>
+            {this.props.title}
+          </Card.Title>
+          <Card.Text><img src={heart} alt=" "/>{this.state.favoriteClicks}
+          </Card.Text>
+          <Card.Text>
+            {this.props.description}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    );}
 }
+
 export default HornedBeasts;
