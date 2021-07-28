@@ -5,6 +5,7 @@
 
 [Deployed App](https://anvayb-hornedbeasts.netlify.app/)
 
+![Screen Shot 2021-07-28 at 3 48 05 PM](https://user-images.githubusercontent.com/53208269/127406020-374d3672-ed35-479c-9ce8-1a1b4e9d85ec.png)
 
 
 <!-- 
