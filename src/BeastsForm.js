@@ -7,7 +7,7 @@ class BeastsForm extends React.Component {
     return (
       <Form  onSubmit={this.props.uponSubmit}>
         <Form.Group>
-          <Form.Label>Beast By Number Of Horns</Form.Label>
+          <Form.Label>Different creatures displayed based on the number of horns they have</Form.Label>
           <Form.Control name="test" as="select" aria-label="Default select example">
             <option>Select # of horns</option>
             <option value={1}>1</option>

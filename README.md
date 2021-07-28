@@ -1,7 +1,13 @@
+# Horned Beasts
+### Different creatures displayed based on the number of horns they have
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fd757697-9ad8-410e-a513-e94362487c69/deploy-status)](https://app.netlify.com/sites/anvayb-hornedbeasts/deploys)
 
+[Deployed App](https://anvayb-hornedbeasts.netlify.app/)
 
 
+
+<!-- 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,4 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
