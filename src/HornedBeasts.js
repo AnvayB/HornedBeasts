@@ -22,6 +22,7 @@ class HornedBeasts extends React.Component {
     return (
       <Card
         style={{width: '18rem' }}
+        border = {"info"}
         onClick={this.addFavorite}>
 
         <Card.Img variant="top" src={this.props.image} />
@@ -36,7 +37,8 @@ class HornedBeasts extends React.Component {
           </Card.Text>
         </Card.Body>
       </Card>
-    );}
+    );
+  }
 }
 
 export default HornedBeasts;

@@ -5,9 +5,9 @@ class Footer extends React.Component {
   render () {
     return (
       <div>
-        <h2>
+        <h3>
           Author: Anvay Bhanap
-        </h2>
+        </h3>
       </div>
     );
   }

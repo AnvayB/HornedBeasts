@@ -17,7 +17,7 @@ class Main extends React.Component {
               key={index}
               showModal={this.props.showModal}
             />
-          )};
+          )}
         </CardColumns>
       </div>
     );
